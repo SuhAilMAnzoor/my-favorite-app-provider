@@ -22,13 +22,15 @@ Uses Consumer widget to rebuild only affected UI parts for better performance
 
 ## 📂 Project Structure
 
+```text
 lib/
 ├── provider/
-│ └── favorite_provider.dart # Manages favorite items state
+│   └── favorite_provider.dart   # Manages favorite items state
 ├── screens/
-│ ├── favorite_screen.dart # Main screen with items list
-│ └── myfavorite.dart # Screen showing selected favorites
-└── main.dart # App entry point
+│   ├── favorite_screen.dart     # Main screen with items list
+│   └── myfavorite.dart          # Screen showing selected favorites
+└── main.dart                    # App entry point
+
 
 
 ## Getting Started
